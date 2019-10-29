@@ -12,6 +12,7 @@ contract InboxContract {
 
     //declare constructor.
     constructor(string memory initialMessage) public {
+        
         message = initialMessage;
     }
 
@@ -19,6 +20,8 @@ contract InboxContract {
     function setMessage(string memory newMessage) public {
         //modifying variable message
         //changes contract data
+
+
         message = newMessage;
     }
 
@@ -26,6 +29,8 @@ contract InboxContract {
     //view/constant, returns data and does not modify contract data.
     /*function getMessage() public view returns (string) {
         //not trytig to modify contract data in any way.
+
+
         return message;
     }*/
 
