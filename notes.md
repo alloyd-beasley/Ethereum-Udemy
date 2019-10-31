@@ -11,7 +11,7 @@ Solidity value types:
     fixed/ufixed - fixed point number, number with a decimal after it.
     address - has methods tied to it for sending money. addr class.
 
-    Solidity reference types:
+Solidity reference types:
     fixed array: int[2] = [1, 2];
     dynamic array: int[] = [1, 2, 3, 4];
         cannot move arrays of strings over to the javascript world
